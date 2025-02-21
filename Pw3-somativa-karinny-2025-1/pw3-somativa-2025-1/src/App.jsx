@@ -2,9 +2,7 @@
 import './App.css'
 
 import BookCard from './components/BookCard'
-import capa_livro from './assets/cavernas_aco.jpg'
-
-
+import capa_livro from './assets/O iluminado.png'
 
 function App() {
  

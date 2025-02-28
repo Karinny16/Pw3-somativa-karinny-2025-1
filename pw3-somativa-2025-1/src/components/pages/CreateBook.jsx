@@ -1,4 +1,3 @@
-import React from "react";
 import { useState,useEffect} from "react";
 import style from './CreateBook.module.css'
 import  Input from "../form/Input";
@@ -70,7 +69,7 @@ useEffect(()=>{
             // console.log(Response.json());
         ).then((respJSON) => {
             console.log('RESPOSTA' + respJSON);
-    
+            // setCategories(categorias.data);
         }).catch((error)=>{
             console.log('ERRO:' + error);
         })
@@ -125,6 +124,7 @@ useEffect(()=>{
             />
             
             </form>
+
         </section>
     )
 }

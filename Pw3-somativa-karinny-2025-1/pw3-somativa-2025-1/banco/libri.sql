@@ -11,3 +11,4 @@ INSERT INTO tbl_categoria (nome_categoria, createdAt, updatedAt) VALUES ('Fantas
 INSERT INTO tbl_categoria (nome_categoria, createdAt, updatedAt) VALUES ('Romance', now(), now());
 INSERT INTO tbl_categoria (nome_categoria, createdAt, updatedAt) VALUES ('Distopia', now(), now());
 INSERT INTO tbl_categoria (nome_categoria, createdAt, updatedAt) VALUES ('Infantil', now(), now());
+
